@@ -12,7 +12,20 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+  ellipse (196, 135, 250, 200);//head
+  
+  //eyes
+  ellipse (170, 104, 35, 35);
+  ellipse (215, 104, 35, 35);
+  
+  fill (0,0,0);
+  //pupils
+  ellipse (170, 100, 20, 20);
+  ellipse (215, 100, 20, 20);
+  
+  fill(65, 86, 10 );
+  //nose
+arc(191, 135, 60, 40, radians(180), radians(360));
   
 
 }
