@@ -12,7 +12,13 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-  ellipse (196, 135, 250, 200);//head
+  fill(246, 233, 195  );
+  //body
+rect(20, 214,357, 201);
+  
+  fill(202,190,97);
+  //head
+  ellipse (196, 135, 250, 200);
   
   //eyes
   ellipse (170, 104, 35, 35);
@@ -26,6 +32,24 @@ void draw(){
   fill(65, 86, 10 );
   //nose
 arc(191, 135, 60, 40, radians(180), radians(360));
+
+fill(65, 86, 10 );
+strokeWeight(6);
+
+//ears
+line(287,65,315, 51);
+ellipse(318, 48, 25, 37);
+line(104,62, 68, 44);
+ellipse(64, 41, 25, 37);
+
+//mouth
+line(139, 182,247, 182);
+
+fill(98,92,29);
+//clothes
+arc(194, 235, 200, 150, radians(1), radians(180));
+
+
   
 
 }
