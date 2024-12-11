@@ -53,8 +53,12 @@ line(139, 182,247, 182);
 fill(98,92,29);
 strokeWeight(1)
 
+
 //neck
 arc(191, 221, 200, 200, radians (1), radians (180));
+ fill(202,190,97);
+arc(278,215,40,40, radians (310), radians(360));
+arc(106, 214,40,40, radians(90), radians(220))
 
 fill(38, 23, 4);
 stroke(0,0,0)
